@@ -1,161 +1,157 @@
-
-Lab - Entering Commands
-==========
-Follow the instructions line-by-line.  
-
-* Type in the commands as is, but ignore the beginning prompt.  
-* Enter, tab, up and down are represented by <ENTER><TAB>,<UP> and <DOWN>.  
-* "No output" or "nothing happens" are valid answers to any of the questions.
-==========
-
-
-
-==========
-1. Open Terminal.  Type:
-
-$ ls<ENTER>
-
 Copy and paste the output of ls below.
 ----------
 
 
+AMALogger20190109.log	Applications		Library			Pictures		ipe.properties
+AMALogger20190308.log	Desktop			MPLABXProjects		Public			isus
+Adlm			Documents		Movies			QLData			pymel.log
+Adobe			Downloads		Music			Things			xgen
 
 ==========
 2a. Type: 
-
-$ ls D<TAB>
-
+@@ -28,19 +31,20 @@ $ ls D<TAB>
 What happens?  Describe it below.
 ----------
 
 
+it displays this
+Desktop/   Documents/ Downloads/ 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
 
 
+It repeats the output
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
 
 
+ls: D: No such file or directory
 
 ==========
 3.  Type:
-
-$ ls -l Documents<ENTER>
-
+@@ -60,6 +64,25 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
+.						REAPER Media
+..						Temporary Work
+.DS_Store					Unreal Projects
+.TmThBHyOVRrMJdi0				Untitled
+.localized					eagle
+Adobe						iChats
+Arduino						logo.ai
+Avid Projects					logo.png
+Fritzing					logo2.ai
+Jordon Christopher Managment 1 Assignment.docx	logo2.png
+MATLAB						logoBLACK.ai
+MakeHuman					logoBLACK.png
+Max 7						logoTRANS.ai
+MuseLog.txt					logoTRANS.png
+Native Instruments				logoWHITE.ai
+NewBlue						logoWHITE.png
+Pd						maya
+Pro Tools					test.png
+Processing
 
 
 ==========
-4.  Type:
-
-$ ls -a Documents
-
-Copy and paste the first *two lines* of output below.
-----------
-
-
-
-==========
-5.  Type:
-
-<UP><ENTER>
-
+@@ -70,7 +93,7 @@ Copy and paste the first *two lines* of output below.
 What command was repeated?
 ----------
 
 
+the ls -a Documents command
 
 ==========
 6.  Type:
-
-<UP><UP><UP><DOWN><ENTER>
-
+@@ -80,7 +103,7 @@ What command was repeated?
 What command was repeated?
 ----------
 
 
+Again, the ls -a Documents command
 
 ==========
 7.  Type:
-
-$ ls /Vol<TAB><ENTER>
-
+@@ -90,7 +113,7 @@ $ ls /Vol<TAB><ENTER>
 What is the result of pressing tab?
 ----------
 
 
+It completed it to /Volumes
 
 ==========
 8.  Type:
-
-$ ls doesnotexist
-
+@@ -100,37 +123,38 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
 
+ls: doesnotexist: No such file or directory
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
 
 
+UP
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
 
 
+-l displays a long list in a directory
+-a displays all files and directories in a directory, including hidden
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
 
 
+TAB
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
 
 
+ls- displays a list in the current directory
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
 
 
+Documents
 
 ==========
 14.  Type:
-
-$ foo<ENTER>
-
+@@ -140,7 +164,7 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
 
+-bash: foo: command not found
 
 ==========
 15.  Type:
-
-<UP><ENTER>
-
+@@ -150,7 +174,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
 
+-bash: foo: command not found
 
 ==========
 16.  In the following line....
-
-$ ls -a Desktop
+@@ -159,3 +183,6 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+
+Command is ls, flag is -a, and argument is Desktop, the prompt is ENTER
