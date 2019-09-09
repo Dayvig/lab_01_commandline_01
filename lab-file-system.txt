@@ -16,9 +16,13 @@ Follow the instructions line-by-line.
 2. Create a directory called mtec1002.
 ----------
 
+mkdir mtec1002
+
 ==========
 3. Change your directory so that you're in mtec1002.
 ----------
+
+cd mtec1002
 
 ==========
 4. Type:
@@ -32,7 +36,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
-
+/Users/student/mtec1002
 
 ==========
 5. Type:
@@ -43,7 +47,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals
 
 ==========
 6. Type:
@@ -54,29 +58,29 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals	food
 
 ==========
 7. Type:
 
-$ mkdir -p foo/bar/baz/qux
+$ mkdir -p foo/bar/baq/qux
 $ ls
 
 Copy and paste the output below.
 ----------
 
-
+animals	foo TAB food
 
 ==========
 8. Type:
 
-$ cd foo/bar/baz/qux
+$ cd foo/bar/baq/qux
 $ pwd
 
 Copy and paste the output below.
 ----------
 
-
+/Users/student/mtec1002/foo/bar/baq/qux
 
 ==========
 9. Type:
@@ -87,7 +91,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/Users/student/mtec1002/foo/bar
 
 ==========
 10. Type:
@@ -98,7 +102,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/Users
  
 ==========
 11. Type:
@@ -109,7 +113,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/
 
 ==========
 12. Type:
@@ -121,7 +125,7 @@ $ ls -l
 Copy and paste the first two lines from the output into the space below.
 ----------
 
-
+rmdir: animals: No such file or directory
 
 ==========
 13. Type:
@@ -132,7 +136,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/Users/student
 
 ==========
 14. Type:
@@ -143,7 +147,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/Volumes
 
 ==========
 15. Type:
@@ -154,7 +158,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/Volumes
 
 ==========
 15. Type:
@@ -165,7 +169,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/Users/student/mtec1002
 
 ==========
 16. Type:
@@ -175,13 +179,14 @@ $ hostname
 Copy and paste the output into the space below.
 ----------
 
-
+v314-ent-005.local
 
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
-
+pwd
+/Users/student/mtec1002
 
 ==========
 17b. If you're not in the right directory, type the following command:
@@ -204,7 +209,7 @@ lemon
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
 
-
+mkdir -p pineapple/orange/strawberry/lemon
 
 ==========
 19. Make another directory called aardvark.  
@@ -212,7 +217,7 @@ Use only one command to make all of these new directories.  Write what command y
 Write the command you used to create the directory below:
 ----------
 
-
+mkdir aardvark
 
 ==========
 20. List the files and directories in the current directory using the long format.  
@@ -220,7 +225,7 @@ Write the command you used to create the directory below:
 What is the modified date of the aardvark directory?
 ----------
 
-
+Sep 9 17:09
 
 ==========
 21. Make 3 directories nested within each other:
@@ -232,7 +237,7 @@ What is the modified date of the aardvark directory?
 What command did you use?
 ----------
 
-
+mkdir -p foo2/bar2/baz2
 
 ==========
 22. Change your directory so that you're in the inner most directory (baz)
@@ -240,7 +245,7 @@ What command did you use?
 What command did you use?
 ----------
 
-
+cd foo2/bar2/baz2
 
 ==========
 23. Change your directory so that you're two directories up (foo)
@@ -248,43 +253,47 @@ What command did you use?
 What command did you use?
 ----------
 
+cd ../..
 
 ==========
 24. What command is used to delete empty directories?
 ----------
 
-
+rmdir
 
 ==========
 25. What command is used to print out your current working directory?
 ----------
 
-
+pwd
 
 ==========
 26. What flag do I pass to ls to print out all files?
 ----------
 
-
+-a
 
 ==========
 27. What's the shortcut for home directory?
 ----------
 
-
+~
 
 ==========
 28. What's a pathname?
 ----------
 
-
+The path from the root to the current directory
 
 ==========
 29. What's a directory?
 ----------
 
-
+A place where data is stored
 
 ==========
 30. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+
+/Users/student/Downloads
+
